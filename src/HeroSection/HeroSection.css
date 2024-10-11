@@ -1,5 +1,5 @@
 .hero_main {
-    background-image: url('src/assets/maincat.jpg');
+    background-image: url('./assets/maincat.jpg');
     background-color: rgba(0, 0, 0, 0.4);
     height: 100vh;
     width: 100%;
