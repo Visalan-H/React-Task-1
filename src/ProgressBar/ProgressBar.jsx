@@ -14,6 +14,7 @@ function ProgressBar({ percentage, label }) {
                 </div>
             </div>
         </div>
+        
     );
 }
 
