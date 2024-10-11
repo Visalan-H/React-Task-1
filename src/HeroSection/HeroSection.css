@@ -1,0 +1,67 @@
+.hero_main {
+    background-image: url('src/assets/maincat.jpg');
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    justify-content: center;
+
+
+    & h1 {
+        font-size: 60px;
+    }
+
+    & h2 {
+        font-size: 36px;
+    }
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social_icon {
+    font-size: 30px;
+    color: white;
+    transition: 0.3s;
+}
+
+.social_icon a {
+    color: inherit;
+}
+
+.social_icon:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+#green:hover {
+    color: #32BC81;
+}
+
+#navy:hover {
+    color: navy;
+}
+
+#red:hover {
+    color: red;
+}
+
+#blue:hover {
+    color: #1DA1F2;
+}
+
+#grad:hover {
+    color: #C13584;
+}

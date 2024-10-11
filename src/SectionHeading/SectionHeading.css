@@ -1,0 +1,41 @@
+.section_heading {
+    text-align: center;
+    padding: 60px 0;
+
+    & .hr {
+        margin-bottom: 10px;
+        position: relative;
+        height: 30px;
+        width: 100%;
+
+        & hr {
+            border: 0;
+            width: 40%;
+            height: 3px;
+            background-color: #32BC81;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    & .bulge {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 10%;
+        height: 7px;
+        background-color: #32BC81;
+        border-radius: 1px;
+    }
+
+    & .highlight_span {
+        color: #32BC81;
+    }
+
+    & h2 {
+        font-size: 28px;
+    }
+}
