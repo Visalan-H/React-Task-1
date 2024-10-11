@@ -15,6 +15,17 @@ function Header() {
                 <h3><a href='#'>Blog</a></h3>
                 <h3><a href='#'>Contact</a></h3>
             </div>
+            {/* <div className="ham_menu">
+                <div className="menu_items">
+                    <h3><a href='#'>Home</a></h3>
+                    <h3><a href='#'>About</a></h3>
+                    <h3><a href='#'>Services</a></h3>
+                    <h3><a href='#'>Portfolio</a></h3>
+                    <h3><a href='#'>Pricing</a></h3>
+                    <h3><a href='#'>Blog</a></h3>
+                    <h3><a href='#'>Contact</a></h3>
+                </div>
+            </div> */}
         </div>
     );
 }

@@ -1,22 +1,22 @@
-.team_main {
-    height: 100vh;
-}
+
 
 .team {
     display: flex;
-    margin: 0 auto;
+    margin: 30px auto;
     justify-content: space-between;
     flex-wrap: wrap;
 
     & .member {
         flex-basis: 250px;
         margin-bottom: 30px;
-
+        
         & .image {
             width: 100%;
             position: relative;
+            height: 250px;
 
             & img {
+                height: 100%;
                 width: 100%;
                 border-radius: 5px 5px 0 0;
             }
@@ -29,18 +29,17 @@
             justify-content: center;
             width: 100%;
             background-color: rgba(0, 0, 0, 0.7);
-
             &>* {
                 width: 20%;
                 cursor: pointer;
                 position: relative;
-                min-height: 30px;
-
+                min-height: 35px;
                 &>* {
                     position: absolute;
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
+                    color: white;
                 }
             }
 
@@ -74,6 +73,7 @@
         }
     }
 }
+
 @media only screen and (min-width:642px) and (max-width:1292px) {
     .member {
         flex-basis: 40% !important;
@@ -89,4 +89,4 @@
     .team {
         justify-content: center;
     }
-} 
+}

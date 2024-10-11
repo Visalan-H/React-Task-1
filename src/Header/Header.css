@@ -16,6 +16,17 @@
         color: white;
     }
 
+    & .ham_menu{
+        display: none;
+        border: 1px solid;
+        width: 15%;
+        height: 50%;
+
+        /* & .menu_items{
+            display: none;
+        } */
+    }
+
     & .nav_links {
         height: 100%;
         flex-basis: 65%;
@@ -54,6 +65,17 @@
         .nav_links {
             display: none;
         }
+
+        /* .ham_menu{
+            display: block;
+        }
+
+        .ham_menu:active{
+            
+            & .menu_items{
+                display: block;
+            }
+        } */
     }
 
     .logo {
