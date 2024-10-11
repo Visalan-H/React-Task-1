@@ -20,7 +20,7 @@ jobs:
           node-version: 'lts'  # Use the latest LTS version
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v2  # Updated to latest version
+        uses: bahmutov/npm-install@v1  # Correct version
 
       - name: Build project
         run: npm run build
@@ -45,7 +45,7 @@ jobs:
           path: ./dist
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4 
+        uses: peaceiris/actions-gh-pages@v4  # Updated to latest version
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
