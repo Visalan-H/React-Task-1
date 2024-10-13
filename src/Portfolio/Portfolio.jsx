@@ -1,55 +1,31 @@
 import React, { useState } from 'react'
 import './Portfolio.css'
 import SectionHeading from '../SectionHeading/SectionHeading'
+import Categories from '../Categories/Categories.jsx'
 
 export default function Portfolio() {
 
     const galleryItems = [
         { category: 'Illustrations', imgs: ['https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350']},
-        { category: 'Photography', imgs: ['https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350'] },
-        { category: 'Websites', imgs: ['https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350']},
-        { category: 'Art', imgs: ['https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350','https://via.placeholder.com/350']},
+        { category: 'Photography', imgs: ['https://via.placeholder.com/250','https://via.placeholder.com/250','https://via.placeholder.com/250','https://via.placeholder.com/250','https://via.placeholder.com/250','https://via.placeholder.com/250'] },
+        { category: 'Websites', imgs: ['https://via.placeholder.com/200','https://via.placeholder.com/200','https://via.placeholder.com/200','https://via.placeholder.com/200','https://via.placeholder.com/200','https://via.placeholder.com/200']},
+        { category: 'Art', imgs: ['https://via.placeholder.com/300','https://via.placeholder.com/300','https://via.placeholder.com/300','https://via.placeholder.com/300','https://via.placeholder.com/300','https://via.placeholder.com/300']},
     ];
 
-    const categories = ['All', 'Illustrations', 'Photography', 'Websites', 'Art'];
-
-    const [selectedCategory, setSelectedCategory] = useState('All');
-
-    const [hoveredCategory,setHoveredCategory] = useState('');
-
-    const filteredItems = selectedCategory === 'All'
-        ? galleryItems
-        : galleryItems.filter(item => item.category === selectedCategory);
-
+    const categories = [
+        { name: 'all', label: 'All' },
+        { name: 'illustrations', label: 'Illustrations' },
+        { name: 'photography', label: 'Photography' },
+        { name: 'websites', label: 'Websites' },
+        { name: 'art', label: 'Art' }
+    ];
+    
     return (
         <div className='portfolio_main padded'>
             <SectionHeading h2="Portfolio" span="Gallery" />
 
             <div className="gallery">
-                <div className="categories">
-                    {categories.map(category => (
-                        <div
-                            key={category}
-                            onClick={() => setSelectedCategory(category)}
-                            className={`category ${selectedCategory === category && hoveredCategory === category ? 'active' : ''}`}
-                            onMouseOver={()=>setHoveredCategory(category)}
-                        >
-                            {category}
-                        </div>
-                    ))}
-                </div>
-
-                {/* <div className="items">
-                    {filteredItems.map((item,i) => (
-                        <div key={i} className="item">
-                            {item.imgs.map((img,ii)=>(
-                                <div className="image">
-                                <img src={img} key={ii}/>
-                                </div>
-                            ))}
-                        </div>
-                    ))}
-                </div> */}
+                <Categories categories={categories} galleryItems={galleryItems}/>
             </div>
         </div>
     )

@@ -1,22 +1,21 @@
 import './About.css'
 import SectionHeading from '../SectionHeading/SectionHeading.jsx';
 import React, { useState } from 'react';
-import ProgressBar from '../ProgressBar/ProgressBar';
 import GreenButton from '../GreenButton/GreenButton.jsx';
+import Categories from '../Categories/Categories.jsx';
 
 function About() {
-    const [selectedCategory, setSelectedCategory] = useState('experience');
-    const [hoveredCategory, setHoveredCategory] = useState('experience');
+    // const [selectedCategory, setSelectedCategory] = useState('experience');
+    // const [hoveredCategory, setHoveredCategory] = useState('experience');
 
 
-    const handleClick = (category) => {
-        console.log("Selected category:", category);
-        setSelectedCategory(category);
-    };
+    // const handleClick = (category) => {
+    //     setSelectedCategory(category);
+    // };
 
-    const handleHover = (category) => {
-        setHoveredCategory(category);
-    }
+    // const handleHover = (category) => {
+    //     setHoveredCategory(category);
+    // }
 
     const categories = [
         { name: 'experience', icon: 'fas fa-paper-plane', label: 'Experience' },
@@ -68,8 +67,8 @@ function About() {
                     <button >Hire me</button>
                 </div>
             </div>
-            <div className="about_footer">
-                <div className='categories'>
+            {/* <div className="about_footer"> */}
+                {/* <div className='categories'>
                 {categories.map((category) => (
                     <div    key={category.name}
                             className={`category ${hoveredCategory === category.name && selectedCategory === category.name ? 'active' : ''}`}
@@ -80,25 +79,12 @@ function About() {
                     </div>
                 )
                 )}
-                </div>
-
-                {selectedCategory && (
-                    <div className="progress_bars">
-                        <h3>{selectedCategory}</h3>
-
-                        {/* RENDER BY ITERATING */}
-                        {progressData[selectedCategory].map((progress, index) => (
-                            <ProgressBar
-                                key={index}
-                                label={progress.label}
-                                percentage={progress.percentage}
-                            />
-                        ))}
-                    </div>
-                )}
-            </div>
+                </div> */}
+                <Categories categories={categories} progressData={progressData}/>
+            {/* </div> */}
         </div>
     );
 }
 
 export default About;
+

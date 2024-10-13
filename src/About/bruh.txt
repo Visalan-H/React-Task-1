@@ -1,0 +1,14 @@
+{selectedCategory && (
+                    <div className="progress_bars">
+                        <h3>{selectedCategory}</h3>
+
+                        {/* RENDER BY ITERATING */}
+                        {progressData[selectedCategory].map((progress, index) => (
+                            <ProgressBar
+                                key={index}
+                                label={progress.label}
+                                percentage={progress.percentage}
+                            />
+                        ))}
+                    </div>
+                )}
