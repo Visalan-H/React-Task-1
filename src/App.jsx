@@ -5,7 +5,7 @@ import About from './About/About.jsx';
 import Services from './Services/Services.jsx';
 import Team from './Team/Team.jsx';
 import Portfolio from './Portfolio/Portfolio.jsx';
-// import Pricing from './Pricing/Pricing.jsx';
+import Pricing from './Pricing/Pricing.jsx';
 // import GetQuote from './GetQuote/GetQuote.jsx';
 // import Blogs from './Blogs/Blogs.jsx';
 // import Testimonials from './Testimonials/Testimonials.jsx';

@@ -9,7 +9,7 @@ export default function SectionHeading(props) {
               <hr />
               <div className="bulge"></div>
           </div>
-          <p style={{color:props.color}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, aspernatur, ipsam quis consequatur minus repellat reiciendis </p>
+          <p style={{ color: props.color }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, aspernatur, ipsam quis consequatur minus </p>
       </div>
   )
 

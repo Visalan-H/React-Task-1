@@ -38,8 +38,6 @@ export default function Categories(props) {
             {selectedCategory && props.progressData && props.progressData[selectedCategory] && (
                 <div className="progress_bars">
                     <h3>{selectedCategory}</h3>
-
-                    {/* RENDER BY ITERATING */}
                     {props.progressData[selectedCategory].map((progress, index) => (
                         <ProgressBar
                             key={index}
@@ -52,8 +50,6 @@ export default function Categories(props) {
 
             {(filteredItems.length > 0) && (
                 <div className="items">
-                    <h1>BRUH</h1>
-
                     {filteredItems.map((item, i) => (
                         <div key={item.category} className="item">
                             {item.imgs.map((img, ii) => (
