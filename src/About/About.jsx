@@ -5,17 +5,6 @@ import GreenButton from '../GreenButton/GreenButton.jsx';
 import Categories from '../Categories/Categories.jsx';
 
 function About() {
-    // const [selectedCategory, setSelectedCategory] = useState('experience');
-    // const [hoveredCategory, setHoveredCategory] = useState('experience');
-
-
-    // const handleClick = (category) => {
-    //     setSelectedCategory(category);
-    // };
-
-    // const handleHover = (category) => {
-    //     setHoveredCategory(category);
-    // }
 
     const categories = [
         { name: 'experience', icon: 'fas fa-paper-plane', label: 'Experience' },
@@ -67,21 +56,7 @@ function About() {
                     <button >Hire me</button>
                 </div>
             </div>
-            {/* <div className="about_footer"> */}
-                {/* <div className='categories'>
-                {categories.map((category) => (
-                    <div    key={category.name}
-                            className={`category ${hoveredCategory === category.name && selectedCategory === category.name ? 'active' : ''}`}
-                            onClick={()=>handleClick(category.name)}
-                            onMouseOver={()=>handleHover(category.name)}>
-
-                            <span><i className={category.icon}></i>{category.label}</span>
-                    </div>
-                )
-                )}
-                </div> */}
                 <Categories categories={categories} progressData={progressData}/>
-            {/* </div> */}
         </div>
     );
 }

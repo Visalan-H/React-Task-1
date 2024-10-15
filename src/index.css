@@ -36,6 +36,8 @@ button {
   cursor: pointer;
   font-weight: 800;
   transition: 0.3s;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -47,59 +49,3 @@ button:active {
   transform: scale(0.8);
   transition: 0.3s;
 }
-
-/* Until I create a separate component for rendering categories, this code will be here */
-
-/* .categories {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  flex-wrap: wrap;
-
-  & .category {
-    width: 170px;
-    font-size: 14px;
-    padding: 15px 0 0;
-    text-align: center;
-    cursor: pointer;
-    position: relative;
-    border: 1px solid;
-    height: 50px;
-    background-color: #32BC81;
-    color: #203D3F;
-    transition: 0.3s ease;
-
-  }
-
-  & .category.active,
-  .category:hover {
-    background-color: #203D3F;
-    color: #32BC81;
-    transition: 0.3s ease;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .categories {
-    justify-content: space-between;
-    width: 100%;
-  }
-
-  .categories .category {
-    width: 45%;
-    margin-bottom: 20px;
-  }
-} 
-
-@media only screen and (max-width:425px) {
-  .categories {
-    justify-content: center;
-    width: 100%;
-  }
-
-  .categories .category {
-    width: 90%;
-    margin-bottom: 20px;
-  }
-} */

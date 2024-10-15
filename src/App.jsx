@@ -22,7 +22,7 @@ function App() {
       <Services />
       <Team />
       <Portfolio />
-      {/* <Pricing /> */}
+      <Pricing />
       {/* <GetQuote /> */}
       {/* <Blogs /> */}
       {/* <Testimonials /> */}

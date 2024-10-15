@@ -1,7 +1,7 @@
 .section_heading {
     text-align: center;
     padding: 60px 0;
-
+    
     & .hr {
         margin-bottom: 10px;
         position: relative;
@@ -39,4 +39,14 @@
         font-size: 28px;
     }
 
+}
+
+@media only screen and (max-width:768px) {
+    .section_heading .hr hr {
+        width: 100%;
+    }
+
+    .hr .bulge {
+        width: 25%;
+    }
 }

@@ -1,0 +1,6 @@
+.pricing_body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #203D3F;
+}

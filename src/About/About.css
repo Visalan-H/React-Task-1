@@ -20,8 +20,6 @@
 
         & button {
             margin: 30px 25px 0 0;
-            padding: 10px;
-            border-radius: 5px;
         }
 
     }
@@ -33,46 +31,6 @@
         aspect-ratio: 1;
     }
 }
-
-/* .about_footer {
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    & .categories {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-        flex-wrap: wrap;
-
-        & .category {
-            width: 170px;
-            font-size: 14px;
-            padding: 15px 0 0;
-            text-align: center;
-            cursor: pointer;
-            position: relative;
-            border: 1px solid;
-            height: 50px;
-            background-color: #32BC81;
-            color: #203D3F;
-            transition: 0.3s ease;
-
-        }
-
-        & .category.active,
-        .category:hover {
-            background-color: #203D3F;
-            color: #32BC81;
-            transition: 0.3s ease;
-        }
-    }
-
-    
-
-} */
 
 @media only screen and (max-width: 768px) {
 
@@ -91,48 +49,7 @@
     img {
         width: 100%;
     }
-
-    .hr hr {
-        width: 100%;
-    }
-
-    .hr .bulge {
-        width: 25%;
-    }
-
-    /* .about_footer .categories {
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .about_footer .categories .category {
-        width: 45%;
-        margin-bottom: 20px;
-    } */
-
-    /* .progress_bars {
-        width: 100% !important;
-        text-align: center;
-        margin-top: 20px;
-        padding: 10px 0 0;
-
-        & .progress_bar_container {
-            margin-bottom: 40px;
-        }
-    } */
 }
-
-/* @media only screen and (max-width:425px) {
-    .about_footer .categories {
-        justify-content: center;
-        width: 100%;
-    }
-
-    .about_footer .categories .category {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-} */
 
 @media only screen and (min-width: 1200px) {
     .right {
