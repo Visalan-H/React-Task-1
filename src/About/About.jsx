@@ -52,10 +52,8 @@ function About() {
                 <div className="right">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident ullam id consequuntur saepe delectusipsum reiciendis nihil maiores, obcaecati<br /> <br /> ab natus illum tempore quisquam quibusdam
                         Lorem ipsum dolor sit amet consectetur adipisicing <br /> <br />elit. Repellendus pariatur, dolores odit aspernatur quas mollitia perferendis iste qui distinctio dignissimos ut quasi deserunt quod ipsa! <br /> <br />    Laboriosam natus iusto voluptatibus beatae?</p>
-                    <GreenButton content="Download Resume" />
-
+                    <GreenButton content="Download Resume" />   
                     <TransparentButton content="Hire Me" color="black"/>
-                    <button>Hire Me</button>
                 </div>
             </div>
                 <Categories categories={categories} progressData={progressData}/>
