@@ -1,6 +1,13 @@
+import React, { useState } from 'react';
 import './Header.css';
 
 function Header() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
         <div className="header_main padded">
             <div className="logo">
@@ -15,17 +22,33 @@ function Header() {
                 <h3><a href='#blogs'>Blog</a></h3>
                 <h3><a href='#contact'>Contact</a></h3>
             </div>
-            {/* <div className="ham_menu">
-                <div className="menu_items">
-                    <h3><a href='#'>Home</a></h3>
-                    <h3><a href='#'>About</a></h3>
-                    <h3><a href='#'>Services</a></h3>
-                    <h3><a href='#'>Portfolio</a></h3>
-                    <h3><a href='#'>Pricing</a></h3>
-                    <h3><a href='#'>Blog</a></h3>
-                    <h3><a href='#'>Contact</a></h3>
-                </div>
-            </div> */}
+            <div className="ham_menu padded" onClick={toggleMenu}>
+                <i className="fa fa-align-right"></i>
+            </div>
+            <div className={`menu_items ${menuOpen ? 'show' : ''} padded`}>
+                <a href='#home' onClick={toggleMenu}>
+                    <h3>Home</h3>
+                </a>
+                <a href='#about' onClick={toggleMenu}>
+                    <h3>About</h3>
+                </a>
+                <a href='#services' onClick={toggleMenu}>
+                    <h3>Services</h3>
+                </a>
+                <a href='#portfolio' onClick={toggleMenu}>
+                    <h3>Portfolio</h3>
+                </a>
+                <a href='#pricing' onClick={toggleMenu}>
+                    <h3>Pricing</h3>
+                </a>
+                <a href='#blogs' onClick={toggleMenu}>
+                    <h3>Blog</h3>
+                </a>
+                <a href='#contact' onClick={toggleMenu}>
+                    <h3>Contact</h3>
+                </a>
+            </div>
+
         </div>
     );
 }
