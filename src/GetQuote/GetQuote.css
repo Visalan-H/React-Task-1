@@ -1,18 +1,28 @@
 .getquote_main {
     background-color: #203D3F;
-    color: white;   
-    height: 60vh;
+    color: white;
+    height: 50vh;
 }
 
 .getquote_body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: start;
-    height: 25vh;
+    align-items: center;
 
     & h2 {
         font-size: 20px;
         margin-bottom: 35px;
+    }
+}
+
+@media only screen and (max-width:390px) {
+    .getquote_body h2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .getquote_main .section_heading{
+        padding: 35px 0;
     }
 }

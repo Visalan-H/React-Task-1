@@ -25,7 +25,11 @@
         color: #203D3F;
         transition: 0.3s ease;
 
-    }
+
+        & span i{
+            margin-right: 10px;
+        }
+    }   
 
     & .category.active,
     .category:hover {
@@ -130,7 +134,7 @@
     }
 
     .categories .category {
-        width: 90%;
+        width: 100%;
         margin-bottom: 20px;
     }
 
