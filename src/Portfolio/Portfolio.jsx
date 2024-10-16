@@ -22,7 +22,7 @@ export default function Portfolio() {
     ];
     
     return (
-        <div className='portfolio_main padded'>
+        <div className='portfolio_main padded' id='portfolio'>
             <SectionHeading h2="Portfolio" span="Gallery" color="white"/>
 
             <div className="gallery">

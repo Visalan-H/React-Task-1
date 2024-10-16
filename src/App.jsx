@@ -6,8 +6,8 @@ import Services from './Services/Services.jsx';
 import Team from './Team/Team.jsx';
 import Portfolio from './Portfolio/Portfolio.jsx';
 import Pricing from './Pricing/Pricing.jsx';
-// import GetQuote from './GetQuote/GetQuote.jsx';
-// import Blogs from './Blogs/Blogs.jsx';
+import GetQuote from './GetQuote/GetQuote.jsx';
+import Blogs from './Blogs/Blogs.jsx';
 // import Testimonials from './Testimonials/Testimonials.jsx';
 // import Success from './Success/Success.jsx';
 // import Contact from './Contact/Contact.jsx';
@@ -23,8 +23,8 @@ function App() {
       <Team />
       <Portfolio />
       <Pricing />
-      {/* <GetQuote /> */}
-      {/* <Blogs /> */}
+      <GetQuote />
+      <Blogs />
       {/* <Testimonials /> */}
       {/* <Success /> */}
       {/* <Contact /> */}

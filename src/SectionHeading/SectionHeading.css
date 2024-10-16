@@ -1,7 +1,6 @@
 .section_heading {
     text-align: center;
     padding: 60px 0;
-    
     & .hr {
         margin-bottom: 10px;
         position: relative;

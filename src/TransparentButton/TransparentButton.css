@@ -1,0 +1,6 @@
+.transparent_button {
+    background-color: transparent;
+    color: #FFF;
+    border:1px solid white;
+    transition: 0.3s;
+}

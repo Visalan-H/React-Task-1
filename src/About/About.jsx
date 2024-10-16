@@ -3,6 +3,7 @@ import SectionHeading from '../SectionHeading/SectionHeading.jsx';
 import React, { useState } from 'react';
 import GreenButton from '../GreenButton/GreenButton.jsx';
 import Categories from '../Categories/Categories.jsx';
+import TransparentButton from '../TransparentButton/TransparentButton.jsx';
 
 function About() {
 
@@ -41,19 +42,20 @@ function About() {
     };
 
     return (
-        <div className="about_main padded">
+        <div className="about_main padded" id='about'>
             <SectionHeading h2="About" span="Me" color="#203D3F" />
 
             <div className="about_body">
                 <div className="left">
-                    <img src="https://via.placeholder.com/350" alt="Placeholder Image" />
+                    <img src="https://via.placeholder.com/250/000000/ff0000?text=I am Batman" alt="Placeholder Image" />
                 </div>
                 <div className="right">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident ullam id consequuntur saepe delectusipsum reiciendis nihil maiores, obcaecati<br /> <br /> ab natus illum tempore quisquam quibusdam
                         Lorem ipsum dolor sit amet consectetur adipisicing <br /> <br />elit. Repellendus pariatur, dolores odit aspernatur quas mollitia perferendis iste qui distinctio dignissimos ut quasi deserunt quod ipsa! <br /> <br />    Laboriosam natus iusto voluptatibus beatae?</p>
                     <GreenButton content="Download Resume" />
 
-                    <button >Hire me</button>
+                    <TransparentButton content="Hire Me" color="black"/>
+                    <button>Hire Me</button>
                 </div>
             </div>
                 <Categories categories={categories} progressData={progressData}/>

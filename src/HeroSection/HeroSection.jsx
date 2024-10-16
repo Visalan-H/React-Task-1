@@ -4,7 +4,7 @@ function HeroSection() {
 
 
     return (
-        <div className="hero_main light-bg">
+        <div className="hero_main" id='home'>
             <h2>Hi, I'm</h2>
             <h1>From INDIA</h1>
             <div className="social-icons">

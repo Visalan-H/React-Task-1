@@ -15,7 +15,7 @@ function Services() {
     ];
 
     return (
-        <div className="services_main padded">
+        <div className="services_main padded" id='services'>
             <SectionHeading h2="Our" span="Services" color="white"/>
 
             <div className="section_body">

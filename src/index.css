@@ -30,6 +30,9 @@ a {
 
 .padded {
   padding: 0 10%;
+
+  /* this is to offset the scrolling behavior in navigating */
+  scroll-margin-top: 13.5vh;
 }
 
 button {

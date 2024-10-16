@@ -5,7 +5,7 @@ import Card from '../Card/Card'
 
 function Pricing() {
     return (
-        <div className='pricing_main padded'>
+        <div className='pricing_main padded' id='pricing'>
             <SectionHeading h2="Pricing" span="Plan" />
 
             <div className="pricing_body">
