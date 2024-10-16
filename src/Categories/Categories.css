@@ -118,8 +118,8 @@
     }
 
     .items .item {
-        justify-content: center;
-        gap: 20px;
+        justify-content: space-between;
+        margin-bottom: 25px;
 
         & .image {
             flex-basis: 45%;

@@ -5,7 +5,6 @@
 
 #32BC81(light) */
 
-
 * {
   margin: 0;
   padding: 0;
@@ -13,10 +12,6 @@
   font-family: 'Cinzel', Helvetica, sans-serif;
   font-weight: 600;
   scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
 }
 
 img {
@@ -30,9 +25,10 @@ a {
 
 .padded {
   padding: 0 10%;
-
-  /* this is to offset the scrolling behavior in navigating */
-  scroll-margin-top: 13.5vh;
+  
+  /* this is to offset the scrolling behavior while navigating */
+  scroll-margin-top: 100px;
+  scroll-snap-align: start;
 }
 
 button {
