@@ -1,3 +1,15 @@
 .blogs_main{
-    height: 100vh;
+    & .blogcards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width:1024px) {
+    .blogs_main .blogcards {
+        justify-content: space-around;
+    }
 }

@@ -1,9 +1,9 @@
 .services_main {
     background-color: #203D3F;
+    color: white;
 }
 
 .section_body {
-    color: white;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

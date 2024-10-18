@@ -1,26 +1,21 @@
 import React from 'react'
 import './SectionHeading.css'
 
-export default function SectionHeading(props) {
-    let para=null;
-    if (props.para) {
-        para = <p style={{ color: props.color }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, aspernatur, ipsam quis consequatur minus </p>;
+export default function SectionHeading({h2,color,span,para=true}) {
+    let paragraph=null;
+    if (para) {
+        paragraph = <p style={{ color: color }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, aspernatur, ipsam quis consequatur minus </p>;
     }
 
     return (
         <div className="section_heading">
-            <h2>{props.h2} <span className="highlight_span">{props.span}</span></h2>
+            <h2>{h2} <span className="highlight_span">{span}</span></h2>
             <div className="hr">
                 <hr />
                 <div className="bulge"></div>
             </div>
-
-            {/* <p style={{ color: props.color }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, aspernatur, ipsam quis consequatur minus </p> */}
-            {para}
+            {paragraph}
         </div>
     )
 }
 
-SectionHeading.defaultProps={
-    para: true
-}

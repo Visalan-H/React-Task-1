@@ -4,12 +4,6 @@
 
     function Card(props) {
 
-        // const [selectedCard,setSelectedCard]=useState('Standard');
-
-        // const handleHover = (title) => {
-        //     setSelectedCard(title);
-        // };
-        
         return (
             <div className="pricing_card">
                 <div className={`h2title ${props.title==="Standard"?"active":""}`}>
