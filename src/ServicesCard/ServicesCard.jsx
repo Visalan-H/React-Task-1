@@ -4,7 +4,7 @@ import GreenButton from '../GreenButton/GreenButton'
 
 export default function ServicesCard(props) {
     return (
-        <div className="card" key={props.i}>
+        <div className="card">    
             <div className="image">
                 <i className={props.card.icon}></i>
             </div>

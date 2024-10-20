@@ -1,6 +1,5 @@
 import './Services.css';
 import SectionHeading from '../SectionHeading/SectionHeading.jsx';
-// import GreenButton from '../GreenButton/GreenButton.jsx';
 import ServicesCard from '../ServicesCard/ServicesCard.jsx';
 
 function Services() {
@@ -21,7 +20,7 @@ function Services() {
 
             <div className="section_body">
                 {cards.map((card,i)=>(
-                    <ServicesCard card={card} i={i}/>
+                    <ServicesCard card={card} key={i} />
                 ))}
             </div>
         </div>
