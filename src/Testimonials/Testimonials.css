@@ -1,0 +1,15 @@
+.testimonials_main{
+    background-color: #203D3F;
+    color: white;
+}
+
+
+.testimonials{
+    display: flex;
+    justify-content: space-around;
+    
+
+    & >*{
+        border: 1px solid;
+    }
+}

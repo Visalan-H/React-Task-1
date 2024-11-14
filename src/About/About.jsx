@@ -47,7 +47,7 @@ function About() {
 
             <div className="about_body">
                 <div className="left">
-                    <img src="https://via.placeholder.com/250/000000/ff0000?text=I am Batman" alt="Placeholder Image" />
+                    <img src='src/assets/batman.png' alt="The Batman" />
                 </div>
                 <div className="right">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident ullam id consequuntur saepe delectusipsum reiciendis nihil maiores, obcaecati<br /> <br /> ab natus illum tempore quisquam quibusdam

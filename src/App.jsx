@@ -8,7 +8,7 @@ import Portfolio from './Portfolio/Portfolio.jsx';
 import Pricing from './Pricing/Pricing.jsx';
 import GetQuote from './GetQuote/GetQuote.jsx';
 import Blogs from './Blogs/Blogs.jsx';
-// import Testimonials from './Testimonials/Testimonials.jsx';
+import Testimonials from './Testimonials/Testimonials.jsx';
 // import Success from './Success/Success.jsx';
 // import Contact from './Contact/Contact.jsx';
 // import Footer from './Footer/Footer.jsx';

@@ -6,10 +6,10 @@ import Categories from '../Categories/Categories.jsx'
 export default function Portfolio() {
 
     const galleryItems = [
-        { category: 'Illustrations', imgs: ['https://via.placeholder.com/250/ff5733/ffffff?text=Illustration1', 'https://via.placeholder.com/250/ff5733/ffffff?text=Illustration2', 'https://via.placeholder.com/250/ff5733/ffffff?text=Illustration3', 'https://via.placeholder.com/250/ff5733/ffffff?text=Illustration4'] },
-        { category: 'Photography', imgs: ['https://via.placeholder.com/250/33c1ff/ffffff?text=Photo1', 'https://via.placeholder.com/250/33c1ff/ffffff?text=Photo2', 'https://via.placeholder.com/250/33c1ff/ffffff?text=Photo3', 'https://via.placeholder.com/250/33c1ff/ffffff?text=Photo4'] },
-        { category: 'Websites', imgs: ['https://via.placeholder.com/250/00cc44/ffffff?text=Website1', 'https://via.placeholder.com/250/00cc44/ffffff?text=Website2', 'https://via.placeholder.com/250/00cc44/ffffff?text=Website3', 'https://via.placeholder.com/250/00cc44/ffffff?text=Website4'] },
-        { category: 'Art', imgs: ['https://via.placeholder.com/250/9933ff/ffffff?text=Art1', 'https://via.placeholder.com/250/9933ff/ffffff?text=Art2', 'https://via.placeholder.com/250/9933ff/ffffff?text=Art3', 'https://via.placeholder.com/250/9933ff/ffffff?text=Art4'] }
+        { category: 'Illustrations', imgs: ['src/assets/cat5.jpg', 'src/assets/cat6.jpg', 'src/assets/cat7.jpg', 'src/assets/cat8.jpg'] },
+        { category: 'Photography', imgs: ['src/assets/cat9.jpg', 'src/assets/cat10.jpg', 'src/assets/cat11.jpg', 'src/assets/cat12.jpg'] },
+        { category: 'Websites', imgs: ['src/assets/cat13.jpg', 'src/assets/cat14.jpg', 'src/assets/cat15.jpg', 'src/assets/cat16.jpg'] },
+        { category: 'Art', imgs: ['src/assets/cat17.jpg', 'src/assets/cat18.jpg', 'src/assets/cat19.jpg', 'src/assets/cat20.jpg'] }
     ];
 
 

@@ -5,10 +5,10 @@
   export default function Team() {
 
     const members=[
-      {name:"Batman",position:"Founder and Director",image:"https://via.placeholder.com/250"},
-      { name: "Cat", position: "Co-Founder", image: "https://via.placeholder.com/250" },
-      { name: "Ironman", position: "Asst. Director", image: "https://via.placeholder.com/250" },
-      { name: "Spiderman", position: "Asst. Director", image: "https://via.placeholder.com/250" }
+      {name:"Batman",position:"Founder and Director",image:"src/assets/cat1.jpg"},
+      { name: "Cat", position: "Co-Founder", image: "src/assets/cat2.jpg" },
+      { name: "Ironman", position: "Asst. Director", image: "src/assets/cat3.jpg" },
+      { name: "Spiderman", position: "Asst. Director", image: "src/assets/cat4.jpg" }
     ]
     return (
       <div className='team_main padded'>

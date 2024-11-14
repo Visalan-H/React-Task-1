@@ -1,5 +1,6 @@
 .blogcard_main {
-    width: 30%;
+    min-width: 30%;
+    scroll-snap-align: center;
 
     .image {
 
@@ -26,6 +27,7 @@
 
         p {
             font-size: 13px;
+            color: #666;
         }
     }
 
@@ -36,6 +38,7 @@
         padding: 20px 10px;
         border-radius: 0 0 15px 5px;
         gap: 10px;
+
         &>* {
             display: flex;
             font-size: 14px;
@@ -52,8 +55,16 @@
     }
 }
 
-@media only screen and (max-width:662px) {
+.blogcard_main:not(.blogcard_main:last-child) {
+    margin-right: 60px;
+}
+
+@media only screen and (max-width:1024px) {
     .blogcard_main {
         width: 100%;
+    }
+
+    .blogcard_main:not(.blogcard_main:last-child) {
+        margin: 0 0 60px 0;
     }
 }

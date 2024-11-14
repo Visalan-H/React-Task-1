@@ -5,10 +5,10 @@ function BlogCard(props) {
   return (
     <div className='blogcard_main'>
         <div className="image">
-            <img src="https://via.placeholder.com/300"/>
+            <img src={props.src}/>
         </div>
         <div className="blog_content">
-        <h4>Lorem ipsum dolor sit amet </h4>
+              <h4>{props.liberty ?"Liberty":"Lorem ipsum dolor sit amet"}</h4>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto vero magni...     <span>Read More &gt;&gt;</span></p>
         </div>
         <div className="metadata">
