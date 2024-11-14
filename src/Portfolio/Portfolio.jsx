@@ -6,10 +6,10 @@ import Categories from '../Categories/Categories.jsx'
 export default function Portfolio() {
 
     const galleryItems = [
-        { category: 'Illustrations', imgs: ['src/assets/cat5.jpg', 'src/assets/cat6.jpg', 'src/assets/cat7.jpg', 'src/assets/cat8.jpg'] },
-        { category: 'Photography', imgs: ['src/assets/cat9.jpg', 'src/assets/cat10.jpg', 'src/assets/cat11.jpg', 'src/assets/cat12.jpg'] },
-        { category: 'Websites', imgs: ['src/assets/cat13.jpg', 'src/assets/cat14.jpg', 'src/assets/cat15.jpg', 'src/assets/cat16.jpg'] },
-        { category: 'Art', imgs: ['src/assets/cat17.jpg', 'src/assets/cat18.jpg', 'src/assets/cat19.jpg', 'src/assets/cat20.jpg'] }
+        { category: 'Illustrations', imgs: ['./assets/cat5.jpg', './assets/cat6.jpg', './assets/cat7.jpg', './assets/cat8.jpg'] },
+        { category: 'Photography', imgs: ['./assets/cat9.jpg', './assets/cat10.jpg', './assets/cat11.jpg', './assets/cat12.jpg'] },
+        { category: 'Websites', imgs: ['./assets/cat13.jpg', './assets/cat14.jpg', './assets/cat15.jpg', './assets/cat16.jpg'] },
+        { category: 'Art', imgs: ['./assets/cat17.jpg', './assets/cat18.jpg', './assets/cat19.jpg', './assets/cat20.jpg'] }
     ];
 
 

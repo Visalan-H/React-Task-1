@@ -23,14 +23,14 @@ function Blogs() {
           <i className='fa fa-chevron-right' onClick={() => handleScroll('r')}></i>
         </div>
         <div className='blogcards' ref={scrollRef}>
-          <BlogCard src="src/assets/cat20.jpg" />
-          <BlogCard src="src/assets/cat21.jpg" />
-          <BlogCard src="src/assets/cat22.jpg" />
-          <BlogCard src="src/assets/cat23.jpg" />
-          <BlogCard src="src/assets/cat24.jpg" liberty={true}/>
-          <BlogCard src="src/assets/cat25.jpg" />
-          <BlogCard src="src/assets/cat26.jpg" />
-          <BlogCard src="src/assets/cat27.jpg" />
+          <BlogCard src="./assets/cat20.jpg" />  
+          <BlogCard src="./assets/cat21.jpg" />
+          <BlogCard src="./assets/cat22.jpg" />
+          <BlogCard src="./assets/cat23.jpg" />
+          <BlogCard src="./assets/cat24.jpg" liberty={true}/>
+          <BlogCard src="./assets/cat25.jpg" />
+          <BlogCard src="./assets/cat26.jpg" />
+          <BlogCard src="./assets/cat27.jpg" />
         </div>
       </div>
     </div>
