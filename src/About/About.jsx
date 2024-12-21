@@ -11,7 +11,6 @@ function About() {
         { name: 'experience', icon: 'fas fa-paper-plane', label: 'Experience' },
         { name: 'education', icon: 'fas fa-graduation-cap', label: 'Education' },
         { name: 'award', icon: 'fas fa-trophy', label: 'Award' },
-        { name: 'skills', icon: 'fas fa-gem', label: 'Skills' },
     ];
 
     const progressData = {
@@ -32,12 +31,6 @@ function About() {
             { label: 'Award 2', percentage: 70 },
             { label: 'Award 3', percentage: 60 },
             { label: 'Award 4', percentage: 80 },
-        ],
-        skills: [
-            { label: 'Skill 1', percentage: 85 },
-            { label: 'Skill 2', percentage: 75 },
-            { label: 'Skill 3', percentage: 95 },
-            { label: 'Skill 4', percentage: 55 },
         ],
     };
 

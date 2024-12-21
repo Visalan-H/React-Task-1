@@ -1,0 +1,27 @@
+.main_pie{
+   height: 100vh;
+   background-color: black;
+   display: block;
+   padding-top: 80px;
+}
+
+.pie{
+    width: min(400px,80%);
+    aspect-ratio: 1/1;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+
+    /* background: conic-gradient(
+        blue 0 var(--one),
+        red var(--one) calc(var(--one) + var(--two)),
+        green calc(var(--one) + var(--two)) calc(var(--one) + var(--two) + var(--three)),
+        white calc(var(--one)+var(--two)+var(--three)) 100%
+    ); */
+    background: conic-gradient(
+        #9d8dfd 0 var(--one),
+        red var(--one) calc(var(--one) + var(--two)),
+        green calc(var(--one) + var(--two)) calc(var(--one) + var(--two) + var(--three)),
+        white calc(var(--one) + var(--two) + var(--three)) 100%
+    );
+}
